@@ -1,15 +1,21 @@
 .background {
+  position: relative;
+}
+.image {
   background-image: url("../../assets/fond_accueil.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  text-align: center;
-  height: 55rem;
+  filter: blur(4px);
+  height: 48rem;
 }
 .texte {
-  position: relative;
-  top: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
 }
 h1 {
   padding: 1rem 0;
