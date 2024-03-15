@@ -1,9 +1,9 @@
 .cv {
-  padding: 1rem 0;
+  padding: 1rem 15%;
 }
 .pack {
   background-color: white;
-  margin: 1rem 3rem;
+  margin: 1rem 0;
   border-radius: 1rem;
   padding: 1rem;
 }
@@ -16,4 +16,28 @@ h2 {
 }
 h3 {
   font-weight: 500;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .cv {
+    padding: 1rem 5%;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .cv {
+    padding: 1rem 5%;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .cv {
+    padding: 1rem 5%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .cv {
+    padding: 1rem 5%;
+  }
 }
