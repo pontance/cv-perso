@@ -7,6 +7,20 @@ body {
 }
 body {
 }
+button {
+  border-radius: 2rem !important;
+  padding: 0.2rem 0.8rem;
+  background-color: rgb(52, 58, 64);
+  margin-bottom: 1rem !important;
+  color: white;
+  font-size: 1.2rem !important;
+  letter-spacing: 2px;
+  border-color: rgb(52, 58, 64);
+}
+button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
 
 /* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
