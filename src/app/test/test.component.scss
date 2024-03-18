@@ -1,3 +1,13 @@
 .test {
   padding: 1rem 0;
 }
+.carre {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 30rem;
+  height: 30rem;
+  background-color: white;
+  transform: translate(-50%);
+  border-radius: 1rem;
+}
