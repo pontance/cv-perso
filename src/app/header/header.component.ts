@@ -6,6 +6,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./header.component.scss"],
 })
 export class HeaderComponent implements OnInit {
+  header: any;
   navLinks!: any[];
 
   constructor() {
@@ -28,5 +29,21 @@ export class HeaderComponent implements OnInit {
     ];
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.header = document.getElementById("header");
+  }
+
+  ngAfterViewInit() {
+    document.addEventListener("scroll", (ev) => {
+      this.resizeHeader(ev);
+    });
+  }
+
+  resizeHeader(event: Event) {
+    if (window.scrollY > 64 && window.innerWidth > 540) {
+      this.header.style.height = "64px";
+    } else {
+      this.header.style.height = "128px";
+    }
+  }
 }
