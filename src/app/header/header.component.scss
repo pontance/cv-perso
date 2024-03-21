@@ -32,15 +32,16 @@ img {
 }
 .box {
   position: relative;
-  height: 56px;
-  width: 56px;
+  height: 96px;
+  width: 96px;
   background: rgba(0, 0, 0, 0.75);
-  margin-left: 0.25rem;
+  margin-left: 0.5rem;
   border-radius: 1rem;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
 }
 .box::before {
   content: "";
@@ -86,6 +87,7 @@ img {
 }
 .box h2 {
   z-index: 2;
-  font-size: 48px;
+  font-size: 96px;
   padding-top: 1rem;
+  transition: 0.5s;
 }

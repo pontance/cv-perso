@@ -8,6 +8,8 @@ import { Component, OnInit } from "@angular/core";
 export class HeaderComponent implements OnInit {
   header: any;
   navLinks!: any[];
+  box: any;
+  h2: any;
 
   constructor() {
     this.navLinks = [
@@ -31,6 +33,8 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.header = document.getElementById("header");
+    this.box = document.getElementById("box");
+    this.h2 = document.getElementById("h2");
   }
 
   ngAfterViewInit() {
@@ -42,8 +46,14 @@ export class HeaderComponent implements OnInit {
   resizeHeader(event: Event) {
     if (window.scrollY > 64 && window.innerWidth > 540) {
       this.header.style.height = "64px";
+      this.box.style.height = "56px";
+      this.box.style.width = "56px";
+      this.h2.style.fontSize = "48px";
     } else {
       this.header.style.height = "128px";
+      this.box.style.height = "96px";
+      this.box.style.width = "96px";
+      this.h2.style.fontSize = "96px";
     }
   }
 }
