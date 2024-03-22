@@ -1,1 +1,5 @@
-<p>portfolio works!</p>
+<div class="portfolio">
+  <div class="d-flex justify-content-center" *ngFor="let ite of listItem">
+    <app-item [it]="ite"></app-item>
+  </div>
+</div>
