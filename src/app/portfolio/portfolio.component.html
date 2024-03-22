@@ -1,5 +1,5 @@
 <div class="portfolio">
-  <div class="d-flex justify-content-center" *ngFor="let ite of listItem">
-    <app-item [it]="ite"></app-item>
+  <div class="d-flex flex-wrap justify-content-center items">
+    <app-item *ngFor="let itemEl of itemElements" [itemEl]="itemEl"></app-item>
   </div>
 </div>

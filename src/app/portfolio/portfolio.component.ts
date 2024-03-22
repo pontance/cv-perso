@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { ItemElement } from "../models/item.model";
 
 @Component({
   selector: "app-portfolio",
@@ -6,11 +7,11 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./portfolio.component.scss"],
 })
 export class PortfolioComponent implements OnInit {
-  listItem: any[] = [];
+  itemElements: ItemElement[] = [];
   constructor() {}
 
   ngOnInit(): void {
-    this.listItem = [
+    this.itemElements = [
       {
         image: "../../assets/enm.png",
         titre: "ENM",
