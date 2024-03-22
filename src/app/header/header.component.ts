@@ -24,6 +24,11 @@ export class HeaderComponent implements OnInit {
         description: "curriculum vitae",
       },
       {
+        link: "portfolio",
+        label: "Portfolio",
+        description: "Portfolio",
+      },
+      {
         link: "test",
         label: "Test",
         description: "Test",

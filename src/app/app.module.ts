@@ -10,6 +10,7 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CvComponent } from './cv/cv.component';
 import { TestComponent } from './test/test.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TestComponent } from './test/test.component';
     FooterComponent,
     AccueilComponent,
     CvComponent,
-    TestComponent
+    TestComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
