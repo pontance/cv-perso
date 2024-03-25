@@ -1,9 +1,17 @@
 .item {
-  width: 28rem;
+  width: 22rem;
   height: 26rem;
   background-color: #ebebeb;
   border-radius: 1rem;
   margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.item:hover img {
+  background-color: whitesmoke;
 }
 img {
   padding: 0.5rem;

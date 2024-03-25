@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from "@angular/core";
+import { MatDialog } from "@angular/material/dialog";
 import { ItemElement } from "../models/item.model";
+import { PopupComponent } from "../popup/popup.component";
 
 @Component({
   selector: "app-item",
@@ -8,7 +10,12 @@ import { ItemElement } from "../models/item.model";
 })
 export class ItemComponent implements OnInit {
   @Input() itemEl!: ItemElement;
-  constructor() {}
+  constructor(public dialog: MatDialog) {}
 
   ngOnInit(): void {}
+
+  openDialog() {
+    this.dialog.open(PopupComponent);
+  }
+  closeDialog() {}
 }

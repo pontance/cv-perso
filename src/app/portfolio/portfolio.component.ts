@@ -20,7 +20,7 @@ export class PortfolioComponent implements OnInit {
       {
         image: "",
         titre: "Collect'iv",
-        texte: "",
+        texte: "Logiciel d'IMC",
       },
       {
         image: "",

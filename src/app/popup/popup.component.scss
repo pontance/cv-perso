@@ -1,0 +1,14 @@
+.popup {
+  width: 75vw;
+}
+.popup img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.popup button {
+  margin: 1rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}

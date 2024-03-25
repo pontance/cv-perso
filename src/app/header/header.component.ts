@@ -49,7 +49,7 @@ export class HeaderComponent implements OnInit {
   }
 
   resizeHeader(event: Event) {
-    if (window.scrollY > 64 && window.innerWidth > 540) {
+    if (window.scrollY > 16 && window.innerWidth > 540) {
       this.header.style.height = "64px";
       this.box.style.height = "56px";
       this.box.style.width = "56px";
