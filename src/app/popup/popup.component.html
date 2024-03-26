@@ -1,8 +1,8 @@
 <div class="popup">
-  <div>
-    <img src="../../assets/enm.png" alt="" />
+  <h2>{{data.titre}}</h2>
+  <img src="{{data.image}}" alt="" />
+  <div class="text">
+    {{data.description}}
   </div>
-  <div>
-    <button (click)="closePopup()">Fermer</button>
-  </div>
+  <button mat-dialog-close>Fermer</button>
 </div>
