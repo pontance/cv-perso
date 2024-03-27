@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { NavLinks } from "../models/navlink.model";
 
 @Component({
   selector: "app-header",
@@ -7,7 +8,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class HeaderComponent implements OnInit {
   header: any;
-  navLinks!: any[];
+  navLinks!: NavLinks[];
   box: any;
   h2: any;
 
