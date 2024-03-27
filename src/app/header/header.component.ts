@@ -17,21 +17,25 @@ export class HeaderComponent implements OnInit {
         link: "",
         label: "Accueil",
         description: "Accueil",
+        visible: true,
       },
       {
         link: "cv",
         label: "Curriculum vitae",
         description: "curriculum vitae",
+        visible: true,
       },
       {
         link: "portfolio",
         label: "Portfolio",
         description: "Portfolio",
+        visible: true,
       },
       {
         link: "test",
         label: "Test",
         description: "Test",
+        visible: false,
       },
     ];
   }
