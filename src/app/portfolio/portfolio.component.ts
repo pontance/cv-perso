@@ -13,6 +13,7 @@ export class PortfolioComponent implements OnInit {
   ngOnInit(): void {
     this.itemElements = [
       {
+        visible: true,
         image: "../../assets/enm.png",
         titre: "ENM",
         texte: "Intranet de l'ENM",
@@ -22,6 +23,7 @@ export class PortfolioComponent implements OnInit {
           "Proin diam neque, laoreet vitae lorem ac, aliquam tristique ante. Proin varius vestibulum ante, a bibendum velit. Nam id magna sed lectus eleifend interdum eu quis mauris. Suspendisse feugiat gravida malesuada. Donec turpis odio, tincidunt in ex nec, fermentum pellentesque arcu. Cras hendrerit imperdiet justo quis eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec congue commodo nunc a ornare. Phasellus eget justo tortor. Maecenas euismod ipsum mauris. Nunc tincidunt metus nec tempor tristique.",
       },
       {
+        visible: true,
         image: "../../assets/collectiv.png",
         titre: "Collect'iv",
         texte: "Logiciel d'IMC",
@@ -29,6 +31,7 @@ export class PortfolioComponent implements OnInit {
         url: "https://www.adventera.fr/collectiv-developpement-logiciel/",
       },
       {
+        visible: true,
         image: "../../assets/smicval.png",
         titre: "SMICVAL",
         texte: "Extranet des élus du SMICVAL",
