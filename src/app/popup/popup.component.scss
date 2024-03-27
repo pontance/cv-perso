@@ -23,3 +23,11 @@ button {
   left: 50%;
   transform: translateX(-50%);
 }
+.popup {
+  position: relative !important;
+}
+.cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

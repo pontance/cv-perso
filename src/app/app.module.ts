@@ -14,6 +14,7 @@ import { PortfolioComponent } from "./portfolio/portfolio.component";
 import { ItemComponent } from "./item/item.component";
 import { PopupComponent } from "./popup/popup.component";
 import { MatDialogModule } from "@angular/material/dialog";
+import { MatIconModule } from "@angular/material/icon";
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { MatDialogModule } from "@angular/material/dialog";
     BrowserAnimationsModule,
     NgbModule,
     MatDialogModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

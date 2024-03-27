@@ -3,4 +3,5 @@ export class ItemElement {
   titre!: string;
   texte!: string;
   description!: string;
+  url?: string;
 }

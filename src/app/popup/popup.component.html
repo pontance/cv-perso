@@ -1,8 +1,11 @@
 <div class="popup">
+  <div class="cross" mat-dialog-close><mat-icon>close</mat-icon></div>
   <h2>{{data.titre}}</h2>
   <img src="{{data.image}}" alt="" />
   <div class="text">
     {{data.description}}
   </div>
-  <button mat-dialog-close>Fermer</button>
+  <div *ngIf="data.url">
+    <a href="{{data.url}}" target="_blank"><button>Voir plus</button></a>
+  </div>
 </div>

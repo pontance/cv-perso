@@ -26,6 +26,7 @@ export class PortfolioComponent implements OnInit {
         titre: "Collect'iv",
         texte: "Logiciel d'IMC",
         description: "",
+        url: "https://www.adventera.fr/collectiv-developpement-logiciel/",
       },
       {
         image: "../../assets/smicval.png",
