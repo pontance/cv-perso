@@ -5,8 +5,7 @@ body {
   height: auto;
   margin: 0;
 }
-body {
-}
+
 button {
   border-radius: 2rem !important;
   padding: 0.2rem 0.8rem;
@@ -20,6 +19,14 @@ button {
 button:hover {
   background-color: whitesmoke;
   color: black;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #1b2450;
 }
 
 /* Importing Bootstrap SCSS file. */
