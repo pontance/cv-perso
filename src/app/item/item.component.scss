@@ -1,13 +1,14 @@
 .item {
   width: 22rem;
   height: 26rem;
-  background-color: #ebebeb;
+  background-color: #31407c;
   border-radius: 1rem;
   margin: 1rem;
+  color: whitesmoke;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .item:hover {
-  background-color: lightgrey;
+  background-color: #1b2450;
   cursor: pointer;
 }
 .item:hover img {
