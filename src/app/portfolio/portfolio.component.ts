@@ -18,20 +18,19 @@ export class PortfolioComponent implements OnInit {
         image_popup: "../../assets/enm_2.png",
         titre: "Intranet de l'ENM",
         texte: "Refonte du site intranet de l'ENM",
+        intro:
+          "Refonte du site intranet de l'ENM (école nationale de la magistrature à Bordeaux), réalisée pendant mon alternance dans l'entreprise Item Média Concept.",
         description:
-          "Refonte du site intranet de l'ENM (école nationale de la magistrature à Bordeaux), réalisé pendant mon alternance dans l'entreprise Item Média Concept." +
+          "Cette refonte à été réalisée à l'aide de Sharepoint Server 2019 et du framework React." +
           "\n" +
-          "Cette refonte à été réalisé à l'aide de Sharepoint Server 2019 et du framework React." +
-          "\n" +
-          "L'intranet permet à l'utilisateur d'accéder aux actualités de l'écoles, à des documents administratifs et pédagogiques",
+          "L'intranet permet à l'utilisateur d'accéder aux actualités de l'école, à des documents administratifs et pédagogiques",
       },
       {
         visible: true,
         image: "../../assets/collectiv.png",
         image_popup: "../../assets/collectiv.png",
         titre: "Collect'iv",
-        texte:
-          "Logiciel de gestion des déchets d'Adventera \n (ex Item Média Concept)",
+        texte: "Logiciel de gestion des déchets d'Adventera",
         description: "",
         url: "https://www.adventera.fr/collectiv-developpement-logiciel/",
       },

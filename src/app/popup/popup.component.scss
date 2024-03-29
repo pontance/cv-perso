@@ -3,14 +3,17 @@ h2 {
   font-size: 48px;
   margin-bottom: 2rem;
 }
+.intro {
+  padding-bottom: 1rem;
+}
 .text {
   max-width: fit-content;
-  margin: 2rem 8%;
+  margin: 2rem 0;
   white-space: pre-line;
 }
 
 img {
-  width: 100%;
+  width: 80%;
   max-width: 48vw;
   border: 2px solid lightgray;
   display: block;
@@ -30,4 +33,10 @@ button {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media all and (max-width: 1080px) {
+  img {
+    width: 100%;
+  }
 }

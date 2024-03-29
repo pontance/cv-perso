@@ -17,7 +17,7 @@ export class ItemComponent implements OnInit {
   openDialog(itemEl: any) {
     this.dialog.open(PopupComponent, {
       width: "70vw",
-      height: "80vh",
+      height: "90vh",
       data: itemEl,
       autoFocus: false,
     });
