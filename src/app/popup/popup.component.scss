@@ -3,8 +3,13 @@ h2 {
   font-size: 48px;
   margin-bottom: 2rem;
 }
+h3 {
+  font-size: 24px;
+  text-decoration: underline;
+}
 .intro {
   padding-bottom: 1rem;
+  margin: 0 2rem;
 }
 .text {
   max-width: fit-content;
@@ -12,7 +17,7 @@ h2 {
   white-space: pre-line;
 }
 
-img {
+.img_popup {
   width: 80%;
   max-width: 48vw;
   border: 2px solid lightgray;
@@ -28,11 +33,29 @@ button {
 }
 .popup {
   position: relative !important;
+  margin: 0 2rem;
 }
 .cross {
   position: absolute;
   top: 0;
   right: 0;
+}
+.technologies {
+  padding: 2rem;
+}
+.icone {
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 6rem;
+}
+.techno {
+  display: grid;
+  justify-content: center;
+}
+.techno p {
+  text-align: center;
+  font-weight: 500;
 }
 
 @media all and (max-width: 1080px) {

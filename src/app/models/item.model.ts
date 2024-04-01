@@ -7,4 +7,10 @@ export class ItemElement {
   description?: string;
   url?: string;
   visible!: boolean;
+  listeTechnologie?: technologieElement[];
+}
+
+export class technologieElement {
+  icone!: string;
+  technologie!: string;
 }
