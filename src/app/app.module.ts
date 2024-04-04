@@ -15,6 +15,7 @@ import { ItemComponent } from "./item/item.component";
 import { PopupComponent } from "./popup/popup.component";
 import { MatDialogModule } from "@angular/material/dialog";
 import { MatIconModule } from "@angular/material/icon";
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { MatIconModule } from "@angular/material/icon";
     PortfolioComponent,
     ItemComponent,
     PopupComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
