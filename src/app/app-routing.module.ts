@@ -4,8 +4,10 @@ import { AccueilComponent } from "./accueil/accueil.component";
 import { CvComponent } from "./cv/cv.component";
 import { TestComponent } from "./test/test.component";
 import { PortfolioComponent } from "./portfolio/portfolio.component";
+import { ContactComponent } from "./contact/contact.component";
 
 const routes: Routes = [
+  { path: "contact", component: ContactComponent },
   { path: "portfolio", component: PortfolioComponent },
   { path: "cv", component: CvComponent },
   { path: "test", component: TestComponent },

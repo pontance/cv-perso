@@ -15,7 +15,8 @@ import { ItemComponent } from "./item/item.component";
 import { PopupComponent } from "./popup/popup.component";
 import { MatDialogModule } from "@angular/material/dialog";
 import { MatIconModule } from "@angular/material/icon";
-import { ContactComponent } from './contact/contact.component';
+import { ContactComponent } from "./contact/contact.component";
+import { ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { ContactComponent } from './contact/contact.component';
     NgbModule,
     MatDialogModule,
     MatIconModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
