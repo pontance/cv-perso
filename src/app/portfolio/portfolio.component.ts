@@ -25,7 +25,7 @@ export class PortfolioComponent implements OnInit {
         description:
           "La refonte de cet intranet a été réalisée sous Sharepoint Server 2019 pour permettre l’élaboration du site à l’aide de la création des pages alimentées par des Webparts (des composants natifs de sharepoint ou développé à l'aide du framework React) ainsi que pour la facilités qu’offre SharePoint quant à la gestion des documents, la création des espaces collaboratifs et la communication interne et externe." +
           "\n" +
-          "L'utilisation de Powershell a aussi été nécessaire pour la migration d'archives ",
+          "L'utilisation de Powershell a aussi été nécessaire pour la migration d'archives de l'ancien intranet vers le nouveau.",
         listeTechnologie: [
           {
             icone: "../../assets/icon_react.png",
@@ -59,6 +59,7 @@ export class PortfolioComponent implements OnInit {
         image_popup: "../../assets/collectiv.png",
         titre: "Collect'iv",
         texte: "Logiciel de gestion des déchets d'Adventera",
+        intro: "",
         description: "",
         url: "https://www.adventera.fr/collectiv-developpement-logiciel/",
         listeTechnologie: [
@@ -79,8 +80,8 @@ export class PortfolioComponent implements OnInit {
             technologie: "Typescript",
           },
           {
-            icone: "../../assets/icon_typescript.png",
-            technologie: "Java",
+            icone: "../../assets/icon_java.png",
+            technologie: "Spring",
           },
           {
             icone: "../../assets/icon_sql.png",
@@ -94,7 +95,12 @@ export class PortfolioComponent implements OnInit {
         image_popup: "../../assets/smicval.png",
         titre: "Extranet des élus du SMICVAL",
         texte: "Refonte du site extranet des élus du SMICVAL",
-        description: "",
+        intro:
+          "Le site extranet du SMICVAL (Syndicat Mixte Intercommunal de Collecte et de Valorisation) est un espace collaboratif sécurisé qui permet aux élus du SMICVAL de chercher des documents (bilans d’AG, convocations, présences, docs administratifs, ...), de planifier des réunions et d’accéder aux informations relatives à toutes les autres instances." +
+          "\n" +
+          "Le SMICVAL est un syndicat qui assure une mission de collecte et traitement des déchets sur le territoire du Libournais et de la Haute Gironde.",
+        description:
+          "Le projet consistait en une mise à jour de la version SharePoint 2016 vers SharePoint 2019 du site extranet du SMICVAL ainsi qu’en la réalisation de certaines évolutions de celui-ci",
         listeTechnologie: [
           {
             icone: "../../assets/icon_react.png",
@@ -127,9 +133,10 @@ export class PortfolioComponent implements OnInit {
         image: "../../assets/portfolio.png",
         image_popup: "../../assets/portfolio.png",
         titre: "Portfolio",
-        texte: "  Site web développeur",
-        intro: "",
-        description: "",
+        texte: "Site web développeur",
+        intro:
+          "Site portfolio sur lequel vous êtes actuellement, et toujours en cours d'évolution ",
+        description: "Ce site à été réalisé en Angular",
         listeTechnologie: [
           {
             icone: "../../assets/icon_angular.png",
