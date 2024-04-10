@@ -17,6 +17,7 @@ import { MatDialogModule } from "@angular/material/dialog";
 import { MatIconModule } from "@angular/material/icon";
 import { ContactComponent } from "./contact/contact.component";
 import { ReactiveFormsModule } from "@angular/forms";
+import { MatProgressBarModule } from "@angular/material/progress-bar";
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { ReactiveFormsModule } from "@angular/forms";
     MatDialogModule,
     MatIconModule,
     ReactiveFormsModule,
+    MatProgressBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

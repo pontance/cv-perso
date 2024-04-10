@@ -34,6 +34,13 @@
 .paragraphe {
   padding: 1rem 20%;
 }
+.paragraphe p {
+  text-align: center;
+}
+.paragraphe a {
+  text-align: center;
+}
+
 .photo {
   border-radius: 50%;
   //clip-path: ellipse(50% 50%); //image carré

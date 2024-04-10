@@ -47,15 +47,17 @@
   border-radius: 1rem;
 }
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #4f598a;
   color: black;
   border-radius: 1rem;
 }
 .flip-card-back {
   background-color: #1b2450;
-  color: white;
   transform: rotateY(180deg);
   border-radius: 1rem;
+}
+.flip-card-back .pack {
+  margin: 1rem;
 }
 h2 {
   font-weight: 500;
@@ -63,8 +65,21 @@ h2 {
 }
 h3 {
   font-weight: 500;
+  font-size: 20px;
+}
+::ng-deep .mat-progress-bar-fill::after {
+  background-color: #1b2450;
 }
 
+::ng-deep .mat-progress-bar-buffer {
+}
+
+::ng-deep .mat-progress-bar {
+}
+:host ::ng-deep mat-progress-bar {
+  border-radius: 1rem;
+  height: 8px;
+}
 @media all and (min-width: 1024px) and (max-width: 1280px) {
   .cv {
     padding: 1rem 5%;
