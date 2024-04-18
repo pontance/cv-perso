@@ -36,7 +36,7 @@ export class HeaderComponent implements OnInit {
         link: "contact",
         label: "Contact",
         description: "Contact",
-        visible: true,
+        visible: false,
       },
       {
         link: "test",

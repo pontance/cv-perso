@@ -19,13 +19,21 @@ export class PortfolioComponent implements OnInit {
         titre: "Intranet de l'ENM",
         texte: "Refonte du site intranet de l'ENM",
         intro:
-          "Le site intranet de l’ENM constitue un espace collaboratif à destination du personnel de l’ENM, des magistrats, des personnels de justice, des formateurs et des étudiants magistrats." +
-          "\n" +
-          " Cet espace a pour vocation de partager et communiquer, mais aussi de permettre la consultation ou la recherche d’actualités, des documents ou d’informations.",
-        description:
-          "La refonte de cet intranet a été réalisée sous Sharepoint Server 2019 pour permettre l’élaboration du site à l’aide de la création des pages alimentées par des Webparts (des composants natifs de sharepoint ou développé à l'aide du framework React) ainsi que pour la facilités qu’offre SharePoint quant à la gestion des documents, la création des espaces collaboratifs et la communication interne et externe." +
-          "\n" +
-          "L'utilisation de Powershell a aussi été nécessaire pour la migration d'archives de l'ancien intranet vers le nouveau.",
+        "Le site de l’Ecole Nationale de la Magistrature (ENM) avait besoin d’une refonte de son site intranet. ",
+        description:"Celle-ci a été réalisée sous Sharepoint Server 2019, outil collaboratif de Microsoft permettant l’élaboration des sites à l’aide de la création des pages alimentées par des Webparts. " +
+        "\n" +
+        "" +
+        "\n" +
+        "Ces Webparts pouvaient être natives de Sharepoint, ou encore réalisées en React." +
+        "\n" +
+        "" +
+        "\n" +
+        "J’ai aussi eu recours à PowerShell pour la réalisation des scripts de récupération des données existantes dans l’ancien intranet." +
+        "\n" +
+        "" +
+        "\n" +
+        "Ce choix d’outil a été imposé par ENM, d’une part parce que l’ancien intranet était réalisé sous ces mêmes technologies, et d’autre part pour les facilités qu’offre SharePoint quant à la gestion des documents, la création des espaces collaboratifs et la communication interne et externe. ",
+        
         listeTechnologie: [
           {
             icone: "../../assets/icon_react.png",
@@ -59,8 +67,22 @@ export class PortfolioComponent implements OnInit {
         image_popup: "../../assets/collectiv.png",
         titre: "Collect'iv",
         texte: "Logiciel de gestion des déchets d'Adventera",
-        intro: "",
-        description: "",
+        intro: "COLLECT’IV est un logiciel créé par Adventera pour la gestion des déchets.",
+        description: "L’équipe a œuvré pour créer une plateforme complète de services GRU et de ChatBot grâce à une IA pour un service de tarification des déchetteries." +
+        "\n" +
+        "" +
+        "\n" +
+        "J’ai participé au développement front-end de l’application web avec Angular. " +
+        "\n" +
+        "" +
+        "\n" +
+        "J’ai notamment réalisé  des écrans de configuration  permettant la gestion des différents types de conteneurs de la déchetterie ainsi que l’ajout de fonctionnalités." +
+        "\n" +
+        "" +
+        "\n" +
+        "Je suis également intervenu sur la correction de bugs principaux d'affichage, d'exécution ou de programmation. " +
+        "\n" +
+        "",
         url: "https://www.adventera.fr/collectiv-developpement-logiciel/",
         listeTechnologie: [
           {
@@ -96,11 +118,38 @@ export class PortfolioComponent implements OnInit {
         titre: "Extranet des élus du SMICVAL",
         texte: "Refonte du site extranet des élus du SMICVAL",
         intro:
-          "Le site extranet du SMICVAL (Syndicat Mixte Intercommunal de Collecte et de Valorisation) est un espace collaboratif sécurisé qui permet aux élus du SMICVAL de chercher des documents (bilans d’AG, convocations, présences, docs administratifs, ...), de planifier des réunions et d’accéder aux informations relatives à toutes les autres instances." +
-          "\n" +
-          "Le SMICVAL est un syndicat qui assure une mission de collecte et traitement des déchets sur le territoire du Libournais et de la Haute Gironde.",
+          "Notre client, le SMICVAL est un syndicat qui assure une mission de collecte et traitement des déchets sur le territoire du Libournais et de la Haute Gironde.",
         description:
-          "Le projet consistait en une mise à jour de la version SharePoint 2016 vers SharePoint 2019 du site extranet du SMICVAL ainsi qu’en la réalisation de certaines évolutions de celui-ci",
+        "Leur site extranet est un espace collaboratif sécurisé qui permet aux élus de chercher des documents (bilans d’AG, convocations, présences, docs administratifs, ...), de planifier des réunions et d’accéder aux informations relatives à toutes les autres instances. " +
+        "\n" +
+        "" +
+        "\n" +
+        "Le projet qui nous a été confié consistait en une mise à jour de la version SharePoint 2016 vers SharePoint 2019 du site extranet." +
+        "\n" +
+        "" +
+        "\n" +
+        "La refonte du site extranet a été géré en mode AGILE." +
+        "\n" +
+        "" +
+        "\n" +
+        "J’ai notamment travaillé sur :" +
+        "\n" +
+        "" +
+        "\n" +
+        " • Le développement des scripts en PowerShell  et des webparts en React," +
+        "\n" +
+        "• la réalisation des tests unitaires, " +
+        "\n" +
+        "• la documentation des codes sources, "+
+        "\n" +
+        "• la participation à la phase des tests d’intégration, "+
+        "\n" +
+        "• la correction des anomalies suite aux retours de l’équipe tests et recette IMC, "+
+        "\n" +
+        "• la rédaction de la documentation technique. "+
+        "\n" +
+        "",
+        
         listeTechnologie: [
           {
             icone: "../../assets/icon_react.png",
