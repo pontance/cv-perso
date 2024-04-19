@@ -18,6 +18,7 @@ import { MatIconModule } from "@angular/material/icon";
 import { ContactComponent } from "./contact/contact.component";
 import { ReactiveFormsModule } from "@angular/forms";
 import { MatProgressBarModule } from "@angular/material/progress-bar";
+import { HashLocationStrategy, LocationStrategy } from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -42,7 +43,7 @@ import { MatProgressBarModule } from "@angular/material/progress-bar";
     ReactiveFormsModule,
     MatProgressBarModule,
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
