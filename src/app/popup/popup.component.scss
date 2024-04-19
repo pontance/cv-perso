@@ -18,12 +18,15 @@ h3 {
   margin: 2rem 0;
   white-space: pre-line;
 }
-
+.img_column {
+  display: flex;
+  align-items: center;
+}
 .img_popup {
   width: 80%;
   max-width: 48vw;
   border: 2px solid lightgray;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
 }

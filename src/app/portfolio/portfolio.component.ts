@@ -113,8 +113,8 @@ export class PortfolioComponent implements OnInit {
       },
       {
         visible: true,
-        image: "../../assets/smicval.png",
-        image_popup: "../../assets/smicval.png",
+        image: "../../assets/smicval_2.png",
+        image_popup: "../../assets/smicval_2.png",
         titre: "Extranet des élus du SMICVAL",
         texte: "Refonte du site extranet des élus du SMICVAL",
         intro:
@@ -184,8 +184,8 @@ export class PortfolioComponent implements OnInit {
         titre: "Portfolio",
         texte: "Site web développeur",
         intro:
-          "Site portfolio sur lequel vous êtes actuellement, et toujours en cours d'évolution ",
-        description: "Ce site à été réalisé en Angular",
+          "Site portfolio sur lequel vous êtes actuellemen et toujours en cours d'évolution.",
+        description: "Ce site à été réalisé en Angular.",
         listeTechnologie: [
           {
             icone: "../../assets/icon_angular.png",
