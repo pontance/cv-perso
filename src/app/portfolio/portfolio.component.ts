@@ -24,7 +24,7 @@ export class PortfolioComponent implements OnInit {
         "\n" +
         "" +
         "\n" +
-        "Ces Webparts pouvaient être natives de Sharepoint, ou encore réalisées en React." +
+        "Ces Webparts pouvaient être natives de Sharepoint ou réalisées en React." +
         "\n" +
         "" +
         "\n" +
@@ -32,7 +32,7 @@ export class PortfolioComponent implements OnInit {
         "\n" +
         "" +
         "\n" +
-        "Ce choix d’outil a été imposé par ENM, d’une part parce que l’ancien intranet était réalisé sous ces mêmes technologies, et d’autre part pour les facilités qu’offre SharePoint quant à la gestion des documents, la création des espaces collaboratifs et la communication interne et externe. ",
+        "Ce choix d’outil a été imposé par l'ENM, d’une part parce que l’ancien intranet était réalisé sous ces mêmes technologies, et d’autre part pour les facilités qu’offre SharePoint quant à la gestion des documents, la création des espaces collaboratifs et la communication interne et externe. ",
         
         listeTechnologie: [
           {
@@ -136,17 +136,17 @@ export class PortfolioComponent implements OnInit {
         "\n" +
         "" +
         "\n" +
-        " • Le développement des scripts en PowerShell  et des webparts en React," +
+        " • Le développement des scripts en PowerShell et des webparts en React," +
         "\n" +
-        "• la réalisation des tests unitaires, " +
+        "• La réalisation des tests unitaires, " +
         "\n" +
-        "• la documentation des codes sources, "+
+        "• La documentation des codes sources, "+
         "\n" +
-        "• la participation à la phase des tests d’intégration, "+
+        "• La participation à la phase des tests d’intégration, "+
         "\n" +
-        "• la correction des anomalies suite aux retours de l’équipe tests et recette IMC, "+
+        "• La correction des anomalies suite aux retours de l’équipe tests et recette IMC, "+
         "\n" +
-        "• la rédaction de la documentation technique. "+
+        "• La rédaction de la documentation technique. "+
         "\n" +
         "",
         
@@ -184,8 +184,8 @@ export class PortfolioComponent implements OnInit {
         titre: "Portfolio",
         texte: "Site web développeur",
         intro:
-          "Site portfolio sur lequel vous êtes actuellemen et toujours en cours d'évolution.",
-        description: "Ce site à été réalisé en Angular.",
+          "Site portfolio sur lequel vous êtes actuellement et est toujours en cours d'évolution.",
+        description: "Ce site a été réalisé en Angular.",
         listeTechnologie: [
           {
             icone: "../../assets/icon_angular.png",
