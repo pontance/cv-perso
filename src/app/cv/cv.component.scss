@@ -15,6 +15,12 @@
   border-radius: 1.5rem;
   padding: 1rem 1rem 0 1rem;
 }
+.qrcode {
+  width: 20rem;
+}
+.button-qrcode {
+  text-align: center;
+}
 .flip-card {
   margin: 1rem 0;
   background-color: transparent;
@@ -81,10 +87,27 @@ li {
 .list-icon {
   list-style: none;
 }
-.icon {
+/*.icon {
   width: 2rem;
   margin: 0.25rem;
   vertical-align: bottom !important;
+}*/
+.hidden {
+  width: 2rem;
+  margin: 0.25rem;
+  vertical-align: bottom !important;
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+.show {
+  width: 2rem;
+  margin: 0.25rem;
+  vertical-align: bottom !important;
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 2s;
 }
 ::ng-deep .mat-progress-bar-fill::after {
   background-color: #1b2450;
