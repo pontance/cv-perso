@@ -7,6 +7,7 @@ import { MAT_DIALOG_DATA } from "@angular/material/dialog";
   styleUrls: ["./popup.component.scss"],
 })
 export class PopupComponent implements OnInit {
+window: any= window;
   constructor(@Inject(MAT_DIALOG_DATA) public data: any) {}
 
   ngOnInit(): void {}

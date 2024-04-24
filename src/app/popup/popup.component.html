@@ -11,8 +11,20 @@
     </div>
     <div class="technologies">
       <h3>Technologies utilisées :</h3>
-      <div class="row">
-        <div class="col-4 techno" *ngFor="let techno of data.listeTechnologie">
+      <div *ngIf="window.innerWidth <360" class="row">
+        <div  class="col-12 techno" *ngFor="let techno of data.listeTechnologie">
+          <img class="icone" src="{{techno.icone}}" alt="" />
+          <p>{{techno.technologie}}</p>
+        </div>
+      </div>
+      <div *ngIf="window.innerWidth >=360 && window.innerWidth <720 " class="row">
+        <div  class="col-6 techno" *ngFor="let techno of data.listeTechnologie">
+          <img class="icone" src="{{techno.icone}}" alt="" />
+          <p>{{techno.technologie}}</p>
+        </div>
+      </div>
+      <div *ngIf="window.innerWidth >=720" class="row">
+        <div  class="col-4 techno" *ngFor="let techno of data.listeTechnologie">
           <img class="icone" src="{{techno.icone}}" alt="" />
           <p>{{techno.technologie}}</p>
         </div>

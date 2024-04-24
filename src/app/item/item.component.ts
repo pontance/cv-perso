@@ -15,11 +15,22 @@ export class ItemComponent implements OnInit {
   ngOnInit(): void {}
 
   openDialog(itemEl: any) {
-    this.dialog.open(PopupComponent, {
-      width: "70vw",
-      height: "90vh",
-      data: itemEl,
-      autoFocus: false,
-    });
+    if(window.innerWidth <720){
+      this.dialog.open(PopupComponent, {
+        width: "95vw",
+        height: "90vh",
+        maxWidth:'95vw',
+        data: itemEl,
+        autoFocus: false,
+      });
+    }
+    else{
+      this.dialog.open(PopupComponent, {
+        width: "70vw",
+        height: "90vh",
+        data: itemEl,
+        autoFocus: false,
+      });
+    }
   }
 }
