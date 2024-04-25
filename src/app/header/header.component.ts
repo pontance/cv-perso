@@ -66,7 +66,7 @@ export class HeaderComponent implements OnInit {
       this.box.style.width = "56px";
       this.h2.style.fontSize = "48px";
     } else {
-      this.header.style.height = "128px";
+      this.header.style.height = "9rem";
       this.box.style.height = "96px";
       this.box.style.width = "96px";
       this.h2.style.fontSize = "96px";

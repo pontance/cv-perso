@@ -6,7 +6,7 @@ header {
   top: 0;
   z-index: 1;
   transition: 0.5s;
-  height: 128px;
+  height: 9rem;
   box-shadow: 0px 0px 30px black;
 }
 img {
@@ -96,4 +96,10 @@ img {
 }
 ul {
   font-size: 1rem;
+  margin-left: 0.5rem;
+}
+@media all and (max-width: 425px) {
+  ul {
+    font-size: 0.8rem;
+  }
 }
